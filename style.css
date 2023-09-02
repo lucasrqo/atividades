@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    color: white;
+    justify-content:center;
+    
+}
+
+body{
+    background-image: url("https://img.freepik.com/psd-gratuitas/pano-de-fundo-de-produto-de-textura-de-papel-cinza-psd-com-sombra_53876-115289.jpg?size=626&ext=jpg&ga=GA1.1.440996249.1693614602&semt=sph");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#praça{
+    content: 0;
+    margin: auto;
+    padding: auto;
+    height: 200px;
+    width: 280px;
+}
+aside{
+    font-size: small;
+    font-style: oblique;
+}
+p#alinhar{
+    text-align:center;
+}
