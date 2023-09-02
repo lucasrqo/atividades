@@ -4,6 +4,7 @@
     justify-content: center;
     color: white;
     justify-content:center;
+    text-align: center;
     
 }
 
@@ -27,4 +28,11 @@ aside{
 }
 p#alinhar{
     text-align:center;
+}
+button{
+    background-color: black;
+
+}
+div#igreja{
+    text-align: center;
 }
