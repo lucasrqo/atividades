@@ -2,14 +2,13 @@
     margin: 0;
     padding: 0;
     justify-content: center;
-    color: white;
-    justify-content:center;
     text-align: center;
-    
+    display: flexbox;    
+    color: rgba(238, 226, 226, 0.884);
 }
 
 body{
-    background-image: url("https://img.freepik.com/psd-gratuitas/pano-de-fundo-de-produto-de-textura-de-papel-cinza-psd-com-sombra_53876-115289.jpg?size=626&ext=jpg&ga=GA1.1.440996249.1693614602&semt=sph");
+    background-image: url("https://img.freepik.com/fotos-gratis/quadro-negro-verde-sujo_125540-774.jpg?size=626&ext=jpg&ga=GA1.1.1175533292.1693873827&semt=sph");
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -22,17 +21,47 @@ body{
     height: 200px;
     width: 280px;
 }
-aside{
+p{
     font-size: small;
     font-style: oblique;
-}
-p#alinhar{
-    text-align:center;
-}
-button{
-    background-color: black;
+    display: inline-block;
 
 }
-div#igreja{
-    text-align: center;
+figcaption{
+    display: inline-block;
+    width: 50vh;
+}
+
+button{
+    background-color: rgb(248, 244, 244);
+    border-radius: 1rch;
+    color: black
+    
+
+}
+div{
+    background-color: rgba(0, 0, 0, 0.438);
+    background-attachment: fixed;
+    border: black;
+    border-radius: 1rem;
+    border-bottom: 1;
+}
+.a{   
+    width: 60vw;
+    margin: 0vh 20vw 0vh 20vw;
+}
+img{
+    align-items:stretch;
+    justify-content:center;
+    
+}
+
+ul{
+    display:block;
+}
+li{
+    
+    display: inline-flex;
+    align-items: center;
+    justify-content:start;
 }
